@@ -1,5 +1,6 @@
 body {
       position: relative; 
+      overflow-x: hidden;
   }
 .nav-btn{
     border-radius: 25px;
@@ -7,9 +8,17 @@ body {
     border: none;
     color: black;
   }
-
-  .acm-text-intro{
-    padding: 180px 15px 10px 15px;
+  #intro-image-conference{
+    
+    width: 520px;margin-left: 10px;
+  }
+  .bearers-panel{
+    border-radius: 25px;
+    background-color: white;
+    border: none;
+    color: black;
+    height: 440px;
+    width: 300px
   }
   #footer-conference{
     text-align: center;
@@ -38,10 +47,17 @@ body {
       margin-right: 5vw;
     }
   @media only screen and (max-width: 600px) {
+  
+  #advancing-tech,#advancing-tech-sub{
+      text-align: center;
+  }
   #footer-conference{
       font-size: 0.8em;
   }
+    #intro-image-conference{
   
+    width: 90vw;margin-left: 5px;
+  }
   #photo-vaala-container{
       margin: 10px 8vw;
       margin-right: 5vw;
@@ -63,29 +79,6 @@ body {
     #ishandeveloper:hover{
       font-size:1.5em;
     }
-  @media only screen and (max-width: 600px){
-  .acm-text-intro{
-    padding: 20px 15px 10px 15px;   
-  }
-  .img-fluid{
-    max-width:80%;
-  }
-  .intro{
-    margin:0 -60px 40px 0px;
-  }
-}
-#photos-vaali-gallery{
-  margin: 25px 8vw;
-  margin-right: 5vw;
-}
-  .bearers-panel{
-    border-radius: 25px;
-    background-color: white;
-    border: none;
-    color: black;
-    height: 440px;
-    width: 300px
-  }
   .ques-panel{
     border-radius: 25px;
     background-color: white;
