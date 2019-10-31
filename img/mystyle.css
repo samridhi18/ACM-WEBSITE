@@ -1,0 +1,29 @@
+#a {  
+background-image:url("img/bg-spots.png");
+background-repeat: no-repeat;
+} 
+.c {
+background-image: url("img/Layer 1.png");
+border-radius: 0px 35px 92px 0px;
+-moz-border-radius: 0px 35px 92px 0px;
+-webkit-border-radius: 0px 35px 92px 0px;
+border: 0px solid #000000;
+height: 15%; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+ }
+ 
+ .footer {
+   width: 100%;
+   background-color: #ADD8E6;
+   color: white;
+   text-align: center;
+}
+#info{
+	font-family: 'Zilla Slab', serif;
+}
+.nav-item{
+	float:right;
+}
+
