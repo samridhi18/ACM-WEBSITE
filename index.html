@@ -11,10 +11,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./css/style.css">
   <!-- For Google Maps Api **********************************************************-->
-
-
-
-
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGQ3ZlViy7K0B4sJydgQqQc6Dxxm4ksjk&callback=initMap">
   </script>
   <script>
@@ -43,16 +39,16 @@
     <form class="form-inline ml-auto">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#home"><button class="btn nav-btn btn-info active shadow">&emsp;Home&emsp;</button></a>
-          &nbsp;
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#events"><button class="btn nav-btn btn-info shadow">&emsp;Events&emsp;</button></a>
+          <a class="nav-link" href="#"></a><button class="btn nav-btn btn-info active shadow">&emsp;Home&emsp;</button></a>
           &nbsp;
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#aboutus"><button class="btn nav-btn btn-info shadow">&emsp;About Us&emsp;</button></a>
           &nbsp;
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#events"><button class="btn nav-btn btn-info shadow">&emsp;Events&emsp;</button></a>
+            &nbsp;
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#officebearers"><button class="btn nav-btn btn-info shadow">&emsp;Office Bearers&emsp;</button></a>
@@ -81,7 +77,7 @@
   </div>
 
 
-  <div class="media row" style="margin-bottom: 80px">
+  <div class="media row" style="margin-bottom: 80px" id="aboutus">
     <div class="media-left col-lg-6 col-sm-12 col-xs-12">
       <img src="./images/undraw_team_spirit_hrr4.png" class="media-object img-fluid img-responsive">
     </div>
@@ -147,46 +143,53 @@
     </center>
     <center>
       <div class="row" style="margin-bottom: 80px">
-      	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-      		<div class="knowmore-panel panel shadow">
-      			<div class="panel-body">
-      				<center>
-      					<img src="./images/calendar-tick-512.png" style="height: 8rem;width: 8rem;margin-top: 1rem">
-      					<h3><b>PAST EVENTS</b></h3>
-      				</center>
-      			</div>
-      		</div>
-      	</div>
-      	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-      		<div class="knowmore-panel panel shadow">
-      			<div class="panel-body">
-      				<center>
-      					<img src="./images/32-512.png" style="height: 8rem;width: 8rem;margin-top: 1rem">
-      					<h3><b>CONFERENCES</b></h3>
-      				</center>
-      			</div>
-      		</div>
-      	</div>
-      	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-      		<div class="knowmore-panel panel shadow">
-      			<div class="panel-body">
-      				<center>
-      					<img src="./images/1476287791193.png" style="height: 8rem;width: 8rem;margin-top: 1rem">
-      					<h3><b>WORKSHOPS</b></h3>
-      				</center>
-      			</div>
-      		</div>
-      	</div>
-      	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-      		<div class="knowmore-panel panel shadow">
-      			<div class="panel-body">
-      				<center>
-      					<img src="./images/233-512.png" style="height: 8rem;width: 8rem;margin-top: 1rem">
-      					<h3><b>UPCOMING</b></h3>
-      				</center>
-      			</div>
-      		</div>
-      	</div>
+        <a href="./pastevents.html">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="knowmore-panel panel shadow">
+                  <div class="panel-body">
+                    <center>
+                      <img src="./images/calendar-tick-512.png" style="height: 8rem;width: 8rem;margin-top: 1rem">
+                      <h3><b>PAST EVENTS</b></h3>
+                    </center>
+                  </div>
+                </div>
+              </div>
+        </a>
+      	<a href="./conferences.html">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="knowmore-panel panel shadow">
+                  <div class="panel-body">
+                    <center>
+                      <img src="./images/32-512.png" style="height: 8rem;width: 8rem;margin-top: 1rem">
+                      <h3><b>CONFERENCES</b></h3>
+                    </center>
+                  </div>
+                </div>
+              </div>
+        </a>
+      	<a href="#">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="knowmore-panel panel shadow">
+                  <div class="panel-body">
+                    <center>
+                      <img src="./images/1476287791193.png" style="height: 8rem;width: 8rem;margin-top: 1rem">
+                      <h3><b>WORKSHOPS</b></h3>
+                    </center>
+                  </div>
+                </div>
+              </div>
+        </a>
+        <a href="./events.html">
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <div class="knowmore-panel panel shadow">
+                <div class="panel-body">
+                  <center>
+                    <img src="./images/233-512.png" style="height: 8rem;width: 8rem;margin-top: 1rem">
+                    <h3><b>UPCOMING</b></h3>
+                  </center>
+                </div>
+              </div>
+            </div></a>
       </div>
     </center>
     <h1 style="text-align: center;font-size: 2rem">WE KNOW YOU'VE GOT SOME QUESTIONS...?</h1><br>
