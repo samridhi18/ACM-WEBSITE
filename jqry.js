@@ -1,158 +1,281 @@
 
-$(document).ready(function(){
-  $("#g1").click(function(){
+$("#sec2").css('margin-top', $("#info").height());
+
+function te1(){
+  console.log("d");
     $("#g").show();
     $("#g1").hide();
      $("#eff").removeClass("effect");
-  });
-   $("#g2").click(function(){
+};
+
+
+   function te2(){
     $("#g").hide();
     $("#g1").show();
     $("#eff").addClass("effect");
-  });
+  };
 
-    $("#ba1").click(function(){
+  function tell1(){
     $("#ba").show();
     $("#ba1").hide();
      $("#effe").removeClass("effect");
-  });
-   $("#ba2").click(function(){
-    $("#ba").hide();
+     $("#sec2").removeClass("heht1");
+     $("#sec2").addClass("heht2");
+  };
+
+  function tell2(){
+     $("#ba").hide();
     $("#ba1").show();
     $("#effe").addClass("effect");
-  });
+    $("#sec2").removeClass("heht2");
+    $("#sec2").addClass("heht1");
+  };
 
-    $("#bb1").click(function(){
-    $("#bb").show();
+  function tell3(){
+     $("#bb").show();
     $("#bb1").hide();
-     $("#effe").removeClass("effect");
-  });
-   $("#bb2").click(function(){
-    $("#bb").hide();
-    $("#bb1").show();
-    $("#effe").addClass("effect");
-  });
+     $("#effe1").removeClass("effect");
+     $("#sec2").removeClass("heht1");
+     $("#sec2").addClass("heht");
+  };
 
-    $("#bc1").click(function(){
-    $("#bc").show();
+  function tell4(){
+     $("#bb").hide();
+    $("#bb1").show();
+    $("#effe1").addClass("effect");
+    $("#sec2").removeClass("heht");
+    $("#sec2").addClass("heht1");
+  };
+
+  function tell5(){
+     $("#bc").show();
     $("#bc1").hide();
-     $("#effe").removeClass("effect");
-  });
-   $("#bc2").click(function(){
+     $("#effe2").removeClass("effect");
+     $("#sec2").removeClass("heht1");
+     $("#sec2").addClass("heht");
+  };
+
+  function tell6(){
     $("#bc").hide();
     $("#bc1").show();
-    $("#effe").addClass("effect");
-  });
+    $("#effe2").addClass("effect");
+    $("#sec2").removeClass("heht");
+    $("#sec2").addClass("heht1");
+  };
 
-    $("#bd1").click(function(){
+  function tell7(){
     $("#bd").show();
     $("#bd1").hide();
-     $("#effe").removeClass("effect");
-  });
-   $("#bd2").click(function(){
-    $("#bd").hide();
-    $("#bd1").show();
-    $("#effe").addClass("effect");
-  });
+     $("#effe3").removeClass("effect");
+     $("#sec2").removeClass("heht1");
+     $("#sec2").addClass("heht2");
+  };
 
-    $("#be1").click(function(){
+  function tell8(){
+     $("#bd").hide();
+    $("#bd1").show();
+    $("#effe3").addClass("effect");
+    $("#sec2").removeClass("heht2");
+    $("#sec2").addClass("heht1");
+  };
+
+  function tell9(){
     $("#be").show();
     $("#be1").hide();
-     $("#effe").removeClass("effect");
-  });
-   $("#be2").click(function(){
+     $("#effe4").removeClass("effect");
+     $("#sec3").removeClass("heht1");
+     $("#sec3").addClass("heht");
+  };
+
+  function tell10(){
     $("#be").hide();
     $("#be1").show();
-    $("#effe").addClass("effect");
-  });
+    $("#effe4").addClass("effect");
+    $("#sec3").removeClass("heht");
+    $("#sec3").addClass("heht1");
+  };
 
-    $("#bf1").click(function(){
+  function tell11(){
     $("#bf").show();
     $("#bf1").hide();
-     $("#effe").removeClass("effect");
-  });
-   $("#bf2").click(function(){
+     $("#effe5").removeClass("effect");
+     $("#sec3").removeClass("heht1");
+     $("#sec3").addClass("heht");
+  };
+
+  function tell12(){
     $("#bf").hide();
     $("#bf1").show();
-    $("#effe").addClass("effect");
-  });
+    $("#effe5").addClass("effect");
+    $("#sec3").removeClass("heht");
+    $("#sec3").addClass("heht1");
 
-    $("#bh1").click(function(){
-    $("#bh").show();
+  };
+
+  function tell13(){
+     $("#bh").show();
     $("#bh1").hide();
-     $("#effe").removeClass("effect");
-  });
-   $("#bh2").click(function(){
+     $("#effe6").removeClass("effect");
+     $("#sec3").removeClass("heht1");
+     $("#sec3").addClass("heht");
+
+  };
+
+  function tell14(){
     $("#bh").hide();
     $("#bh1").show();
-    $("#effe").addClass("effect");
-  });
+    $("#effe6").addClass("effect");
+    $("#sec3").removeClass("heht");
+    $("#sec3").addClass("heht1");
 
-    $("#bi1").click(function(){
+  };
+
+  function tell15(){
     $("#bi").show();
     $("#bi1").hide();
-     $("#effe").removeClass("effect");
-  });
-   $("#bi2").click(function(){
+     $("#effe7").removeClass("effect");
+     $("#sec3").removeClass("heht1");
+     $("#sec3").addClass("heht2");
+  };
+
+  function tell16(){
     $("#bi").hide();
     $("#bi1").show();
-    $("#effe").addClass("effect");
-  });
+    $("#effe7").addClass("effect");
+    $("#sec3").removeClass("heht2");
+    $("#sec3").addClass("heht1");
 
-    $("#bj1").click(function(){
-    $("#bj").show();
+  };
+
+  function tell17(){
+     $("#bj").show();
     $("#bj1").hide();
-     $("#effe").removeClass("effect");
-  });
-   $("#bj2").click(function(){
-    $("#bj").hide();
-    $("#bj1").show();
-    $("#effe").addClass("effect");
-  });
+     $("#effe8").removeClass("effect");
+     $("#footer").removeClass("heht1");
+     $("#footer").addClass("heht2");
 
-    $("#bk1").click(function(){
-    $("#bk").show();
+  };
+
+  function tell18(){
+     $("#bj").hide();
+    $("#bj1").show();
+    $("#effe8").addClass("effect");
+    $("#footer").removeClass("heht2");
+    $("#footer").addClass("heht1");
+  };
+
+  function tell19(){
+     $("#bk").show();
     $("#bk1").hide();
-     $("#effe").removeClass("effect");
-  });
-   $("#bk2").click(function(){
+     $("#effe9").removeClass("effect");
+     $("#footer").removeClass("heht1");
+     $("#footer").addClass("heht2");
+  };
+
+  function tell20(){
     $("#bk").hide();
     $("#bk1").show();
-    $("#effe").addClass("effect");
-  });
+    $("#effe9").addClass("effect");
+    $("#footer").removeClass("heht2");
+    $("#footer").addClass("heht1");
+  };
 
-    $("#bl1").click(function(){
+  function tell21(){
     $("#bl").show();
     $("#bl1").hide();
-     $("#effe").removeClass("effect");
-  });
-   $("#bl2").click(function(){
+     $("#effe10").removeClass("effect");
+     $("#footer").removeClass("heht1");
+     $("#footer").addClass("heht");
+  };
+
+  function tell22(){
     $("#bl").hide();
     $("#bl1").show();
-    $("#effe").addClass("effect");
-  });
+    $("#effe10").addClass("effect");
+    $("#footer").removeClass("heht");
+    $("#footer").addClass("heht1");
+  };
 
-    $("#bm1").click(function(){
-    $("#bm").show();
+  function tell23(){
+     $("#bm").show();
     $("#bm1").hide();
-     $("#effe").removeClass("effect");
-  });
-   $("#bm2").click(function(){
-    $("#bm").hide();
-    $("#bm1").show();
-    $("#effe").addClass("effect");
-  });
+     $("#effe11").removeClass("effect");
+     $("#footer").removeClass("heht1");
+     $("#footer").addClass("heht");
+  };
 
-    $("#bn1").click(function(){
-    $("#bn").show();
+  function tell24(){
+     $("#bm").hide();
+    $("#bm1").show();
+    $("#effe11").addClass("effect");
+    $("#footer").removeClass("heht");
+    $("#footer").addClass("heht1");
+  };
+
+  function tell25(){
+      $("#bn").show();
     $("#bn1").hide();
-     $("#effe").removeClass("effect");
-  });
-   $("#bn2").click(function(){
+     $("#effe12").removeClass("effect");
+     $("#footer").removeClass("heht1");
+     $("#footer").addClass("heht");
+  };
+
+  function tell26(){
     $("#bn").hide();
     $("#bn1").show();
-    $("#effe").addClass("effect");
-  });
-   
+    $("#effe12").addClass("effect");
+    $("#footer").removeClass("heht");
+    $("#footer").addClass("heht1");
+  };
 
- });
+  function tell27(){
+    $("#bo").show();
+    $("#bo1").hide();
+     $("#effe13").removeClass("effect");
+     $("#footer").removeClass("heht1");
+     $("#footer").addClass("heht");
+  };
+
+  function tell28(){
+    $("#bo").hide();
+    $("#bo1").show();
+    $("#effe13").addClass("effect");
+    $("#footer").removeClass("heht");
+    $("#footer").addClass("heht1");
+  };
+
+  function tell29(){
+    $("#bp").show();
+    $("#bp1").hide();
+     $("#effe14").removeClass("effect");
+     $("#footer").removeClass("heht1");
+     $("#footer").addClass("heht");
+  };
+
+  function tell30(){
+    $("#bp").hide();
+    $("#bp1").show();
+    $("#effe14").addClass("effect");
+    $("#footer").removeClass("heht");
+    $("#footer").addClass("heht1");
+  };
+
+  function tell31(){
+    $("#bq").show();
+    $("#bq1").hide();
+     $("#effe15").removeClass("effect");
+     $("#footer").removeClass("heht1");
+     $("#footer").addClass("heht");  
+   };
+
+  function tell32(){
+    $("#bq").hide();
+    $("#bq1").show();
+    $("#effe15").addClass("effect");
+    $("#footer").removeClass("heht");
+    $("#footer").addClass("heht1");
+  };
+
+
+
+
